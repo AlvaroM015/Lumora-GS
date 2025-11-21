@@ -1,24 +1,13 @@
 {
-  "name": "lumora-gs",
+  "name": "lumora-frontend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AlvaroM015/Lumora-GS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AlvaroM015/Lumora-GS/issues"
-  },
-  "homepage": "https://github.com/AlvaroM015/Lumora-GS#readme",
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.17",
-    "tailwindcss": "^4.1.17"
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
   }
 }
