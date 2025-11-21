@@ -1,6 +1,4 @@
-
 FROM nginx:alpine
 
-
-COPY ../app /usr/share/nginx/html
-
+# Como o contexto é a raiz do projeto (Lumora-GS), copiamos a pasta 'app' diretamente.
+COPY app /usr/share/nginx/html
