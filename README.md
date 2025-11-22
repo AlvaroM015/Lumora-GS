@@ -308,4 +308,16 @@ docker compose down -v
 - Nome 1 Álvaro Milantonio — RM: 561652
 - Nome 2 Victoria Barreto — RM: 562435
 - Nome 3 Helena Cáceres RM: 563814
-- Nome 4 Leonardo Basseti — RM: 
+- Nome 4 Leonardo Basseti — RM: 564231
+
+
+## Link do repositório: 
+
+
+https://github.com/AlvaroM015/Lumora-GS.git
+
+## Link da url do GitPages: 
+
+https://alvarom015.github.io/Lumora-GS/
+
+
